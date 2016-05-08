@@ -1,0 +1,63 @@
+What are the limitations of your approach?
+
+1. Currently the folder where the NER file is & the folder containing all the txt files is hardcoded
+
+
+ What other approaches might be possible? 
+ 
+ 1. Adding a naive learning model (supervised learning) will help in giving top answers
+ 
+ Sample Output below:
+ 
+ Search Results for Earth
+<?xml version="1.0" encoding="UTF-8"?><final_results>
+    <aggrResult>
+        <search_results/>
+    </aggrResult>
+    <aggrResult>
+        <search_results/>
+    </aggrResult>
+    <aggrResult>
+        <search_results/>
+    </aggrResult>
+    <aggrResult>
+        <search_results/>
+    </aggrResult>
+    <aggrResult>
+        <search_results/>
+    </aggrResult>
+    <aggrResult>
+        <search_results/>
+    </aggrResult>
+    <aggrResult>
+        <search_results/>
+    </aggrResult>
+    <aggrResult>
+        <search_results>
+            <search_result>
+                <search_word>Earth</search_word>
+                <sentence_list>
+                    <sentence>Armstrong spent about two and a half hours outside the spacecraft, Aldrin slightly less, and together they collected 47.5 pounds (21.5 kg) of lunar material for return to Earth.</sentence>
+                    <sentence>The third member of the mission, Michael Collins, piloted the command spacecraft alone in lunar orbit until Armstrong and Aldrin returned to it just under a day later for the trip back to Earth.</sentence>
+                </sentence_list>
+                <filePath>/Users/bvaradarajan/Documents/DR/nlp_data/d08.txt</filePath>
+            </search_result>
+        </search_results>
+    </aggrResult>
+    <aggrResult>
+        <search_results>
+            <search_result>
+                <search_word>Earth</search_word>
+                <sentence_list>
+                    <sentence>The Apollo spacecraft had three parts: a Command Module with a cabin for the three astronauts, and the only part that landed back on Earth; a Service Module, which supported the Command Module with propulsion, electrical power, oxygen, and water; and a Lunar Module for landing on the Moon.</sentence>
+                    <sentence>After lifting off in the upper part of the Lunar Module and rejoining Collins in the Command Module, they returned to Earth and landed in the Pacific Ocean on July 24.</sentence>
+                </sentence_list>
+                <filePath>/Users/bvaradarajan/Documents/DR/nlp_data/d09.txt</filePath>
+            </search_result>
+        </search_results>
+    </aggrResult>
+    <aggrResult>
+        <search_results/>
+    </aggrResult>
+    <searchWord>Earth</searchWord>
+</final_results>
